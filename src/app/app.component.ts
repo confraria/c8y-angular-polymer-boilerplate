@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
-import '@polymer/paper-checkbox';
-import '@polymer/paper-input/paper-input.js';
+// import '@polymer/paper-checkbox';
+// import '@polymer/paper-input/paper-input.js';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +9,6 @@ import '@polymer/paper-input/paper-input.js';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
-  value: string;
-  checked: boolean;
+  // value: string;
+  // checked: boolean;
 }
