@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 
 import { SharedModule } from '../shared/shared.module';
 import { AuthGuard } from './auth-guard.service';
@@ -17,6 +17,7 @@ import { LoginComponent } from './login.component';
   ],
   declarations: [
     LoginComponent
-  ]
+  ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class LoginModule {}

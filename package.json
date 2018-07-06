@@ -20,6 +20,8 @@
     "@angular/platform-browser": "^6.0.3",
     "@angular/platform-browser-dynamic": "^6.0.3",
     "@angular/router": "^6.0.3",
+    "@c8y/ngx-components": "0.0.2-beta1",
+    "@c8y/style": "0.0.1",
     "@codebakery/origami": "2.0.3",
     "@polymer/paper-checkbox": "3.0.0-pre.21",
     "@polymer/paper-input": "3.0.0-pre.21",
@@ -28,7 +30,9 @@
     "core-js": "^2.5.4",
     "font-awesome": "4.7.0",
     "ngx-components": "0.0.1",
-    "rxjs": "^6.0.0",
+    "paper-loginscreen": "2.0.2",
+    "rxjs": "6.1.0",
+    "rxjs-compat": "^6.1.0",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {

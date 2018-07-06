@@ -1,0 +1,18 @@
+<div class="mx-auto" style="width: 400px;">
+  <h2>LOGIN</h2>
+  <p>{{message}}</p>
+  <p>
+    <button (click)="login()" *ngIf="!authService.isLoggedIn">Login</button>
+    <button (click)="logout()" *ngIf="authService.isLoggedIn">Logout</button>
+  </p>
+  <paper-loginscreen
+    title="Login to"
+    subtitle="Cumulocity UI Fiddle"
+    [loading]="loading"
+    [errorMsg]="errorMsg"
+    (login-btn-click)="login()"
+  >
+  </paper-loginscreen>
+</div>
+
+<!--<c8y-login></c8y-login>-->
